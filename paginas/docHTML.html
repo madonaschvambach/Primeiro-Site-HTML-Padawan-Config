@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formatações e exemplos </title>
+</head>
+
+<body bgcolor="#FFDEAD">
+
+    <!---------------------------------------- MENU-------------------------------------------->
+    <header id="menu.dochtml">
+        <h1 align="center"> Formatações e exemplos HTML</h1>
+    </header>
+
+    <!---------------------------------------- CORPO-------------------------------------------->
+    <main id="corpo.dochtml">
+
+        <section class="listas.dochtml">
+            <h2> Listas </h2>
+            <ul>
+
+                <!-------------------LISTA SIMPLES-------------------->
+                <section class="listasimples.dochtml">
+                    <h3> <ins> Lista simples </ins> </h3>
+                    <ul>
+                        <!-- "ul" lista simples -->
+                        <li> Item 1</li>
+                        <li> Item 2</li>
+                        <li> Item 3</li>
+                    </ul>
+                </section>
+
+                <!-------------------LISTA ORDENADA-------------------->
+                <section class="listaordenada.dochtml">
+                    <h3> <ins> Lista ordenada </ins> </h3>
+                    <ol>
+                        <!-- "ol" lista ordenada -->
+                        <li> Item 1</li>
+                        <ul>
+                            <li> Primeiro item</li>
+                            <li> Segundo item </li>
+                            <li> Terceiro item </li>
+                        </ul>
+                        <li> Item 2</li>
+                        <li> Item 3</li>
+                    </ol>
+                </section>
+
+                <!-------------------LISTA ORDENADA-------------------->
+                <section class="listadedefinicoes.dochtml">
+                    <h3> <ins> Lista de definições </ins> </h3>
+                    <dl>
+                        <dt> COR AZUL <b> - (item) </b> </dt>
+                        <dd>
+                            <!-- Como se fosse um paragrafo com tab -->
+                            A cor azul significa tranquilidade, serenidade e harmonia, mas também está <br>
+                            associada à frieza, monotonia e depressão. Simboliza a água, o céu e o infinito <b> -
+                                (explicação
+                                item)
+                            </b>
+                        </dd>
+                        <br> COR VERMELHA <b> - (item) </b> </dt>
+                        <dd>
+                            <!-- Como se fosse um paragrafo com tab -->
+                            A cor vermelha significa paixão, energia e excitação. É uma cor quente. <br>
+                            Está associada ao poder, à guerra, ao perigo e à violência<b> - (explicação item) </b>
+                        </dd>
+                    </dl>
+                </section>
+            </ul>
+        </section>
+
+        <!-------------------FORMATAÇÃO DE LETRAS-------------------->
+        <section class="formatacaodeletras.dochtml">
+            <h2> Formatação de letras </h2>
+            <ul>
+
+                <!-------------------TABELA FORMATAÇÃO DE LETRAS-------------------->
+                <table width=35% border="5" cellspacing=0 bgcolor="#7FFFD4">
+
+                    <thead>
+                        <tr>
+                            <th> Efeito</th>
+                            <th> Exemplo</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td> <b> Texto negrito </b> </td>
+                            <td> <code> &lt;b&gt; Texto negrito &lt;/b&gt; </code> </td>
+                        </tr>
+
+                        <tr>
+                            <td> <strong> Texto forte </strong></td>
+                            <td> <code> &lt;strong&gt; Texto forte &lt;/strong&gt; </code> </td>
+                        </tr>
+
+                        <tr>
+                            <td> <em> Texto infatizado </em> </td>
+                            <td> <code> &lt;em&gt; Texto infatizado &lt;/em&gt; </code> </td>
+                        </tr>
+
+                        <tr>
+
+                            <td> <i> Texto italico</i> </td>
+                            <td> <code> &lt;i&gt; Texto italico &lt;/i&gt; </code> </td>
+                        </tr>
+
+                        <tr>
+                            <td> <mark> Texto grifado </mark> </td>
+                            <td> <code> &lt;mark&gt; Texto gritado &lt;/mark&gt; </code> </td>
+                        </tr>
+
+
+                        <tr>
+                            <td> <big> Texto grande </big> </td>
+                            <td> <code> &lt;big&gt; Texto grande &lt;/big&gt; </code> </td>
+                        </tr>
+
+                        <tr>
+                            <td> <small> Texto pequeno </small> </td>
+                            <td> <code> &lt;small&gt; Texto grande &lt;/small&gt; </code> </td>
+                        </tr>
+
+                        <tr>
+                            <td> <del> Texto taxado </del> </td>
+                            <td> <code> &lt;del&gt; Texto taxado &lt;/del&gt; </code> </td>
+                        </tr>
+
+                        <tr>
+                            <td> <ins> Texto sublinhado </ins> </td>
+                            <td> <code> &lt;ins&gt; Texto sublinhado &lt;/ins&gt; </code> </td>
+                        </tr>
+
+                        <tr>
+                            <td> Esse é um <sub> texto subscrito </sub> </td>
+                            <td> <code> &lt;sub&gt; Texto subscrito &lt;/sub&gt; </code> </td>
+                        </tr>
+
+                        <tr>
+                            <td> Esse é um <sup> texto sobeescrito </sup></td>
+                            <td> <code> &lt;sup&gt; Texto sobeescrito &lt;/sup&gt; </code> </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </ul>
+        </section>
+
+        <!-------------------EXEMPLOS DE LINKS-------------------->
+        <section class="exemplosdelink.dochtml.dochtml">
+            <h2> Exemplos de links </h2>
+            <ul>
+                <code>
+                <!-- link para outro site -->
+                <p>
+                    Visite o nosso site da <a href="https://www.proway.com.br/" target="_blank"> Proway </a> <br>
+                    <b> Utilização:</b> Visite o nosso site da " &lt;a href="https://www.proway.com.br/" target="_blank"> 
+                    Proway &lt;/a&gt; "
+                </p>
+
+                <!-- link para um bookmark da própria página-->
+                <p>
+                    Vá até a area de exemplos de <a href="#idListas"> listas. </a> <br>
+                    <b> Utilização: </b> Vá até a area de exemplos de " &lt;a href="#idListas"> listas. &lt;/a&gt; "
+                </p>
+
+                <!-- link para um bookmark de outra página-->
+                <p>
+                    Entrar em <a href="https://www.proway.com.br/contato" target="_blankc"> contato </a> com a Proway.<br>
+                    <b> Utilização: </b> Entrar em " &lt;a href="https://www.proway.com.br/contato" target="_blankc"> contato &lt;/a&gt; com a Proway. "
+                </p>
+
+                <p>
+                    <a href="https://www.proway.com.br/ead/" target="_blank"> Cursos ead </a> ofertados pela proway.<br> 
+                    <b> Utilização: </b> &lt;a href="https://www.proway.com.br/ead/" target="_blank"> Cursos ead &lt;/a&gt;  ofertados pela proway.  "
+                </p>
+
+                <p>
+                    Gostou de nossa oferta? entre em contato pelo <a
+                        href="mailto:someone@microsoft.com?subject=Hello%20again">
+                        Send Mail </a> <br>
+                    <b> Utilização: </b> Gostou de nossa oferta? entre em contato pelo "&lt;a
+                    href="mailto:someone@microsoft.com?subject=Hello%20again"&gt;
+                    Send Mail &lt;/a&gt;
+                </p>
+
+            <code>
+                <figure>
+                    <a href="https://br.freepik.com/fotos-vetores-gratis/contato" target="_blank">
+                        <img src="../img/foto1.jpg" alt="Contato" width="100">
+                    </a>
+                    <br>
+                    <figurecaption> <small> Contato </small> </figurecaption>
+                    <br>
+                    <b> Utilização para link na imagem: </b>
+                    "&lt;a href="https://br.freepik.com/fotos-vetores-gratis/contato" target="_blank" &gt;
+                    &lt;img src="../img/foto1.jpg" alt="Contato" width="100"&gt;
+                    &lt;/a&gt;
+                    <br>
+                    &lt;figurecaption> &lt;small&gt; Contato &lt;/small&gt; &lt;/figurecaption&gt;"
+
+                </figure>
+            </code>
+
+            </ul>
+        </section>
+
+        <!-------------------EXEMPLOS DE TABELA-------------------->
+        <section class="tabelas.dochtml">
+            <h2> Exemplos de tabela </h2>
+            <ul>
+
+                <!-------------------TABELA SIMPLES-------------------->
+                <section class="tabelasimples.dochtml">
+                    <h3> <ins> Tabela simples </ins></h3>
+                    <table border="5" cellspacing=0 width=30% bgcolor="#7FFFD4">
+                        <tr>
+                            <th> cabeçalho 1</th>
+                            <th> cabeçalho 2</th>
+
+                        </tr>
+
+                        <tr>
+                            <!-- "tr" linha da tabela-->
+                            <td align="center"> linha 1, coluna 1 </td>
+                            <td>
+                                <center> linha 1, coluna 2 </center>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="right"> linha 2, coluna 1 </td>
+                            <td align="right"> linha 2, coluna 2 </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <h5> Exemplo tabela acima: </h5>
+                    &lt;!-------------------TABELA SIMPLES--------------------&gt;<br>
+                    &lt;section class="tabelasimples.dochtml"&gt; <br>
+                    <ul> &lt;h3&gt; &lt;ins&gt; Tabela simples &lt;/ins&gt;&lt;/h3&gt; <br>
+                        &lt;table border="5" cellspacing=0 width=30% bgcolor="#7FFFD4"&gt; <br>
+                        <ul> &lt;tr&gt; <br> <br>
+                            <ul> &lt;th&gt; cabeçalho 1&lt;/th&gt; <br>
+                                &lt;th&gt; cabeçalho 2&lt;/th&gt; </ul>
+                            &lt;/tr&gt; <br> <br>
+
+                            &lt;tr&gt; <br>
+                            <ul>
+                                &lt;!-- "tr" linha da tabela--&gt; <br>
+                                &lt;td align="center"&gt; linha 1, coluna 1 &lt;/td&gt; <br>
+                                &lt;td&gt; <br>
+                                <ul> &lt;center&gt; linha 1, coluna 2 &lt;/center&gt; </ul>
+                                &lt;/td&gt;
+                            </ul>
+                            &lt;/tr&gt; <br> <br>
+
+                            &lt;tr&gt; <br>
+                            <ul> &lt;td align="right"&gt; linha 2, coluna 1 &lt;/td&gt; <br>
+                                &lt;td align="right"&gt; linha 2, coluna 2 &lt;/td&gt; </ul>
+                            &lt;/tr&gt; <br>
+                        </ul>
+                        &lt;/table&gt; <br>
+                    </ul>
+                    &lt;/section&gt; <br>
+            </ul>
+        </section>
+
+
+        <!-------------------TABELA MESCLADA (COLUNAS)-------------------->
+        <section class="mesclarcolunas.dochtml">
+            <h3> <ins> Mesclar colunas </ins> </h3>
+            <table border="5" cellspacing=0 bgcolor="#7FFFD4">
+                <tr>
+                    <th> coluna 1 </th>
+                    <th> coluna 2 </th>
+                    <th> coluna 3</th>
+                </tr>
+
+                <tr>
+                    <td rowspan="2"> linha 1, coluna 1 </td>
+                    <!-- "rowspan" juntou 2 colunas -->
+                    <td> linha 1, coluna 2 </td>
+                    <td> linha 1, coluna 3</td>
+                </tr>
+
+                <tr>
+                    <td> linha 2, coluna 1 </td>
+                    <td> linha 2, coluna 2 </td>
+                </tr>
+            </table>
+        </section>
+
+        <h5> Exemplo para mesclar a coluna: </h5>
+        &lt;tr&gt;
+        <ul>
+            &lt;td rowspan="2"> linha 1, coluna 1 &lt;/td&gt; <br>
+            &lt;!-- "rowspan" juntou 2 colunas --> <br>
+            &lt;td> linha 1, coluna 2 &lt;/td&gt; <br>
+            &lt;td> linha 1, coluna 3&lt;/td&gt;
+        </ul>
+        &lt;/tr&gt;
+
+        <!-------------------TABELA MESCLADA (LINHAS)-------------------->
+        <section class="mesclarlinhas.dochtml">
+            <h3> <ins> Mesclar linhas </ins> </h3>
+            <table border="5" cellspacing=0 bgcolor="#7FFFD4">
+                <tr>
+                    <th> coluna 1 </th>
+                    <th> coluna 2 </th>
+                    <th> coluna 3</th>
+                </tr>
+
+                <tr>
+                    <td> linha 1, coluna 1 </td>
+                    <td> linha 1, coluna 2 </td>
+                    <td> linha 1, coluna 3</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"> linha 2, coluna 1 </td>
+                    <td> linha 2, coluna 2 </td>
+                </tr>
+            </table> <br>
+
+            <h5> Exemplo para mesclar linhas: </h5>
+            &lt;tr&gt;
+            <ul> &lt;td colspan="2"> linha 2, coluna 1 &lt;/td&gt; <br>
+                &lt;!-- "colspan" juntou 2 colunas --> <br>
+                &lt;td> linha 2, coluna 2&lt;/td&gt; </ul>
+            &lt;/tr&gt;
+
+        </section>
+
+        <!-------------------TABELA DE COMPRAS-------------------->
+        <section class="tabeladecompras.dochtml">
+            <h3> <ins> Tabela de compras </ins> </h3>
+            <table width=35% border="5" cellspacing=0 bgcolor="#7FFFD4">
+                <caption> <strong> <i> Nota Fria Papelaria </i> </strong> </caption>
+                <thead>
+                    <tr>
+                        <th width=50%> Quantidade </th>
+                        <th> Descrição </th>
+                        <th> Preço unit. </th>
+                        <th> Preço total </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr align="center">
+                        <td> 2 </td>
+                        <td> Lapis de cor </td>
+                        <td> R$5,00</td>
+                        <td> R$10,00</td>
+                    </tr>
+
+                    <tr align="center">
+                        <td> 4 </td>
+                        <td> Caderno brochura 60fl</td>
+                        <td> R$3,00 </td>
+                        <td> R$12,00</td>
+                    </tr>
+
+                </tbody>
+
+                <tfoot>
+                    <td colspan="3" align="center"> <b> Total </b> </td>
+                    <td align="center"> R$ 22,00 </td>
+                </tfoot>
+            </table>
+        </section>
+        </ul>
+        </section>
+    </main>
+
+    <br><br>
+
+    <!---------------------------------------- RODAPÉ-------------------------------------------->
+    <footer id="rodape.dochtml">
+        <section class="voltarmenu.dochtml">
+            <a href="../index.html.html">
+                <center> VOLTAR PARA PÁGINA PRINCIPAL. </center>
+            </a>
+        </section>
+    </footer>
+
+    <br><br><br>
+
+</body>
+
+</html>
